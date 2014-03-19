@@ -1,4 +1,3 @@
-
 import java.util.Scanner;
 public class Calculator {
 	public static void main(String [] args){
@@ -8,7 +7,7 @@ public class Calculator {
 		int x = input.nextInt();
 		int y = input.nextInt();
 	
-		System.out.printf("Please enter Add ,  Subtract , Multiply or Divide for the program to perform an arithmetic function with the numbers given\n");
+		System.out.printf("Please enter Add ,  Subtract , Multiply or Divide for the program to perform the arithmetic function of your choice with the numbers given.\n");
 		String function = input.next();
 		
 		if (function.equals("Add")) {
